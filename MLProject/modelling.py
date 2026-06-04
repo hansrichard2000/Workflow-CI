@@ -26,10 +26,6 @@ def load_data():
 
 
 def main():
-    # IMPORTANT:
-    # Do not use mlflow.set_experiment() inside MLflow Project.
-    # mlflow run already creates/manages the active run.
-
     X_train, X_test, y_train, y_test = load_data()
 
     model = LogisticRegression(
