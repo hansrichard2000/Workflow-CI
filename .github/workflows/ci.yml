@@ -12,6 +12,7 @@ jobs:
 
     env:
       MLFLOW_TRACKING_URI: file:${{ github.workspace }}/mlruns
+      MLFLOW_ALLOW_FILE_STORE: "true"
 
     steps:
       - name: Checkout repository
