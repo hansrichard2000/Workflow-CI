@@ -1,0 +1,23 @@
+artifact_path: /home/hanslab37/LabExperiments/Workflow-CI/mlruns/0/models/m-5570c4f9314947c4aecbd26e8b3995c4/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.13
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.13.0
+model_id: m-5570c4f9314947c4aecbd26e8b3995c4
+model_size_bytes: 2189
+model_uuid: m-5570c4f9314947c4aecbd26e8b3995c4
+prompts: null
+run_id: 2c995c5ec2044f81ad8e19c5d7dad3da
+utc_time_created: '2026-06-04 09:03:29.718403'
